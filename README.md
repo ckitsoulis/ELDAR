@@ -17,10 +17,13 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 ```
 
 Who:
+
 *Christos Kitsoulis [Github](https://github.com/ckitsoulis)*
 
 Where:
+
 *Genomics & Bioinformatics group (Genome Nerds) at IMBBC, HCMR*
 
 When:
+
 *During master thesis, October 2021*
