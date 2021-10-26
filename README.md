@@ -1,6 +1,6 @@
 # GenomeAssembly-Statistics
 
-A script to calculate statistics for genome/draft assemblies coming from a FASTA file, additionally to common N50 - L50, defined by the user, alongside with total assembly length. The statistics are saved in a .csv file.
+A script to calculate statistics for genome/draft assemblies coming from a FASTA file, additionally to common N50 - L50, alongside with auto-calculated total assembly length. The statistics are saved in a .csv file.
 
 ## Arguments
 
