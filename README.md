@@ -19,7 +19,7 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 ```
 &nbsp;
 
-### Python libraries needed: [Numpy](https://numpy.org), [Pandas](https://pandas.pydata.org/), [Biopython](https://biopython.org/)
+#### Python libraries needed: [Numpy](https://numpy.org), [Pandas](https://pandas.pydata.org/), [Biopython](https://biopython.org/)
 
 &nbsp;
 
@@ -27,7 +27,6 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 
 &nbsp;
 
-&nbsp;
 
 Who:
 
