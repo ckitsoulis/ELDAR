@@ -30,7 +30,7 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 
 Who:
 
-*Christos Kitsoulis [Github](https://github.com/ckitsoulis)*
+*Christos Kitsoulis [github](https://github.com/ckitsoulis)*
 
 Where:
 
