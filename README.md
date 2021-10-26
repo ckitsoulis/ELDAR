@@ -25,8 +25,6 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 
 &nbsp;
 
-&nbsp;
-
 Who:
 
 *Christos Kitsoulis [Github](https://github.com/ckitsoulis)*
