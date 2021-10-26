@@ -17,8 +17,8 @@ A script to calculate statistics for genome/draft assemblies coming from a FASTA
 ```bash
 python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 50 85 90 85 -o statistics
 ```
-
-
+10 spaces
+$~~~~~~~~~~~$
 
 Who:
 
