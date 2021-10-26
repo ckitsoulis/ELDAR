@@ -2,6 +2,7 @@
 
 A script to calculate statistics for genome/draft assemblies coming from a FASTA file, additionally to common N50 - L50, alongside with auto-calculated total assembly length. The statistics are saved in a .csv file.
 
+
 ## Arguments
 
 | Argument | Description |
@@ -10,11 +11,14 @@ A script to calculate statistics for genome/draft assemblies coming from a FASTA
 | -n | values of statistics you want to calculate. Example: 90 for calculation of N90 and L90. |
 | -o, --output | output filename that contains the desired statistics without the CSV extension (.csv). |
 
+
 ## Usage
 
 ```bash
 python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 50 85 90 85 -o statistics
 ```
+
+
 
 Who:
 
