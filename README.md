@@ -21,7 +21,7 @@ python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_a
 
 #### Python libraries needed: [Numpy](https://numpy.org), [Pandas](https://pandas.pydata.org/), [Biopython](https://biopython.org/)
 
-***The same script without the need of aformentioned libraries is going to be uploaded soon***
+*The same script without the need of aformentioned libraries is going to be uploaded soon*
 
 &nbsp;
 
