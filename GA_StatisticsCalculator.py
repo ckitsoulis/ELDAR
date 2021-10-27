@@ -4,7 +4,7 @@ import numpy as np
 import argparse
 
 usage = "A program to calculate additional statistics (N and L) for a set of contigs or scaffolds based on their lengths."
-tool_name = "draft_stats"
+tool_name = "GA_StatisticsCalculator"
 footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group (Genome Nerds) at IMBBC, HCMR"
 
 parser = argparse.ArgumentParser(description = usage, prog = tool_name, epilog = footer, formatter_class = argparse.RawDescriptionHelpFormatter,)
