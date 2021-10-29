@@ -21,7 +21,7 @@ parser.add_argument('-n',
 metavar = 'int', 
 type = int, 
 nargs = '+', 
-help = 'values of additional statistics you want to calculate. Example: 90 for calculation of N90 and L90.')
+help = 'values for additional statistics you want to calculate. Example: 90 for calculation of N90 and L90.')
 
 parser.add_argument('-p', 
 metavar = "yes OR no",
