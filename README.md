@@ -8,7 +8,7 @@ A script to calculate basic statistics for genome/draft assemblies with optional
 | Argument | Description |
 | --- | --- |
 | -i, --input | full path to file, in FASTA format (.fasta) containing contigs or scaffolds. |
-| -n | values of additional statistics you want to calculate. Example: 90 for calculation of N90 and L90. |
+| -n | values for additional statistics you want to calculate. Example: 90 for calculation of N90 and L90. |
 | -p | optional argument for calculating the percentage of each base. yes or no (default) |
 | -o, --output | output filename that contains the desired statistics without the CSV extension (.csv). |
 
