@@ -24,9 +24,10 @@ nargs = '+',
 help = 'values of additional statistics you want to calculate. Example: 90 for calculation of N90 and L90.')
 
 parser.add_argument('-p', 
+metavar = "yes OR no",
 default = "no", 
 type = str, 
-help = "yes: optional argument for calculating the percentage of each base. default: no")
+help = "optional argument for calculating the percentage of each base. yes or no (default)")
 
 parser.add_argument('-o', 
 '--output', 
