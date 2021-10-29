@@ -1,4 +1,4 @@
-# GenomeAssembly-StatisticsCalculator
+# Genome Assembly Statistics Calculator
 
 A script to calculate basic statistics for genome/draft assemblies with optional ability for calculating additional ones. The results are saved in a .csv file.
 
