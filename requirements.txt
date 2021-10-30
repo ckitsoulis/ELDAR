@@ -1,0 +1,4 @@
+# This file contains all the necessary libraries for the GemQT tool
+numpy
+pandas
+biopython
