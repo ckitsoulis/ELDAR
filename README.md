@@ -15,7 +15,7 @@ GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python 
 
 ### Usage
 
-GemQT [-h] -i path [-n int [int ...]] [-p yes OR no] -o output_filename
+GemQT.py [-h] -i path [-n int [int ...]] [-p yes OR no] -o output_filename
 
 ```bash
 python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 85 90 95 -p yes -o results
