@@ -1,32 +1,35 @@
-# Genome Assembly Statistics Calculator
+## Genome Assembly Quality Metrics Tool (GemQT)
 
-A script to calculate basic statistics for genome/draft assemblies with optional ability for calculating additional ones. The results are saved in a .csv file.
+GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python script evaluates genome/draft assemblies by computing basic metrics. The current tool includes additional metrics alongside to common N50, total assembly size, fragments numbetr etc. The results are saved in a CSV file.
 
 
-## Arguments
+### Arguments
 
 | Argument | Description |
 | --- | --- |
 | -i, --input | full path to file, in FASTA format (.fasta) containing contigs or scaffolds. |
-| -n | values for additional statistics you want to calculate. Example: 90 for calculation of N90 and L90. |
-| -p | optional argument for calculating the percentage of each base. yes or no (default) |
-| -o, --output | output filename that contains the desired statistics without the CSV extension (.csv). |
+| -n | values for additional statistics you want to calculate, e.g. 90 for calculation of N90 and L90. |
+| -p | optional argument for calculating the percentage of each base. yes/no (default) |
+| -o, --output | output's filename that contains the results, without the CSV extension (.csv). |
 
 
-## Usage
+### Usage
 
-GA_StatisticsCalculator [-h] -i path [-n int [int ...]] [-p yes OR no] -o output_filename
+GemQT [-h] -i path [-n int [int ...]] [-p yes OR no] -o output_filename
 
 ```bash
-python GA_StatisticsCalculator.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 50 85 90 85 [-p yes] -o results
+python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 85 90 95 [-p yes] -o results
 ```
-&nbsp;
 
-#### Python libraries used: [Numpy](https://numpy.org), [Pandas](https://pandas.pydata.org/), [Biopython](https://biopython.org/)
+### Dependencies 
 
-*The same script, without the need of the above libraries, is going to be uploaded soon.*
+[Numpy](https://numpy.org)
 
-&nbsp;
+[Pandas](https://pandas.pydata.org/)
+
+[Biopython](https://biopython.org/)
+
+*A version without the need of above libraries is going to be uploaded soon.*
 
 &nbsp;
 
