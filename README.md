@@ -1,6 +1,6 @@
 ## Genome Assembly Quality Metrics Tool (GemQT)
 
-GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python script evaluates genome/draft assemblies by computing basic metrics. The current tool includes additional metrics alongside to common N50, total assembly size, fragments numbetr etc. The results are saved in a CSV file.
+GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python script evaluates genome/draft assemblies by computing basic metrics. The current tool includes options for computation of additional metrics alongside to common N50, total assembly size, fragments numbetr etc. The results are saved in a CSV file.
 
 
 ### Arguments
