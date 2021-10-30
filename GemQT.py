@@ -1,11 +1,10 @@
 from Bio import SeqIO
-from numpy.lib.function_base import average
 import pandas as pd
 import numpy as np
 import argparse
 
-usage = "A program to calculate basic and additional statistics for a genome assembly based on contigs' or scaffolds' length."
-tool_name = "GA_StatisticsCalculator"
+usage = "A tool to compute basic and additional metrics for genome assembly, based on contigs' or scaffolds' length."
+tool_name = "GemQT"
 footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group (Genome Nerds) at IMBBC, HCMR"
 
 parser = argparse.ArgumentParser(description = usage, prog = tool_name, epilog = footer, formatter_class = argparse.RawDescriptionHelpFormatter,)
@@ -21,13 +20,13 @@ parser.add_argument('-n',
 metavar = 'int', 
 type = int, 
 nargs = '+', 
-help = 'values for additional statistics you want to calculate. Example: 90 for calculation of N90 and L90.')
+help = 'values for additional metrics you want to calculate. Example: 90 for computing of N90 and L90.')
 
 parser.add_argument('-p', 
 metavar = "yes OR no",
 default = "no", 
 type = str, 
-help = "optional argument for calculating the percentage of each base. yes or no (default)")
+help = "optional argument for computing the percentage of each base. yes or no (default)")
 
 parser.add_argument('-o', 
 '--output', 
@@ -35,7 +34,7 @@ metavar = 'output_filename',
 type = str, 
 dest = 'output', 
 required = True, 
-help = 'output filename that contains the desired statistics without the CSV extension (.csv).')
+help = 'output filename that contains the requested results, without the CSV extension (.csv).')
 
 args = parser.parse_args()
 
