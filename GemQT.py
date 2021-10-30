@@ -4,7 +4,7 @@ import numpy as np
 import argparse
 
 usage = "A tool to compute basic and additional metrics for genome assembly, based on contigs' or scaffolds' length."
-tool_name = "GemQT"
+tool_name = "GemQT.py"
 footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group (Genome Nerds) at IMBBC, HCMR"
 
 parser = argparse.ArgumentParser(description = usage, prog = tool_name, epilog = footer, formatter_class = argparse.RawDescriptionHelpFormatter,)
