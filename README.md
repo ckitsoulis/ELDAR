@@ -23,13 +23,19 @@ python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 8
 
 ### Dependencies 
 
-[Numpy](https://numpy.org)
+1. [Numpy](https://numpy.org)
 
-[Pandas](https://pandas.pydata.org/)
+2. [Pandas](https://pandas.pydata.org/)
 
-[Biopython](https://biopython.org/)
+3. [Biopython](https://biopython.org/)
 
-*A version without the need of above libraries is going to be uploaded soon.*
+### Notes
+
+The `requirements.txt` file lists all Python libraries that the tool depends on and they will be installed in the environment using the following command:
+
+```bash
+pip install -r requirements.txt
+```
 
 &nbsp;
 
