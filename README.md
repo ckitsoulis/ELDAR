@@ -37,14 +37,19 @@ The `requirements.txt` file lists all Python libraries that the tool depends on 
 pip install -r requirements.txt
 ```
 
+### Contact
+
+If you have any questions or suggestions, please feel free to contact me via email at chriskits@hotmail.com
+
 &nbsp;
 
 &nbsp;
+
 
 
 Who:
 
-*[Christos Kitsoulis](https://github.com/ckitsoulis)*
+*Christos Kitsoulis*
 
 Where:
 
