@@ -134,6 +134,6 @@ if perc_arg == "yes":
     names.extend(bases)
     stats.extend(percentages)
 
-statistics = pd.DataFrame(list(zip(names,stats)), columns = ["Assembly", "draft"])
+statistics = pd.DataFrame(list(zip(names,stats)), columns = ["Assembly", " "])
 
 statistics.to_csv("{}.csv".format(output_file), sep=",", index = False)
