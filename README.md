@@ -29,6 +29,8 @@ python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 8
 
 3. [Biopython](https://biopython.org/)
 
+4. [Argparse](https://pypi.org/project/argparse/) 
+
 ### Notes
 
 The `requirements.txt` file lists all Python libraries that the tool depends on and they will be installed in the environment using the following command:
@@ -57,4 +59,4 @@ Where:
 
 When:
 
-*During master thesis, October 2021*
+*October 2021*
