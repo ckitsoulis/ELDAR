@@ -31,6 +31,8 @@ python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 8
 
 4. [Argparse](https://pypi.org/project/argparse/) 
 
+5. [Plotly](https://plotly.com/) 
+
 ### Notes
 
 The `requirements.txt` file lists all Python libraries that the tool depends on and they will be installed in the environment using the following command:
