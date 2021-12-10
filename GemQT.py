@@ -1,4 +1,5 @@
 from Bio import SeqIO
+import plotly.express as px
 import pandas as pd
 import numpy as np
 import argparse
@@ -133,6 +134,12 @@ if perc_arg == "yes":
     
     names.extend(bases)
     stats.extend(percentages)
+
+## Produce interactive plot for cumulative length 
+fig = px.line(x=[i+1 for i in range(len(cumulative_contigs))], y=cumulative_contigs, 
+labels = {'x': "N-th contig (in descending order)", "y": "cumulative length (bp)"}, 
+title = "GEMQT: Genome assembly cumulative length plot")
+fig.write_html("report.html")
 
 statistics = pd.DataFrame(list(zip(names,stats)), columns = ["Assembly", " "])
 
