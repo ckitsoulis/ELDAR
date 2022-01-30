@@ -9,7 +9,7 @@ GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python 
 | --- | --- |
 | -i, --input | full path to file, in FASTA format (.fasta) containing contigs or scaffolds. |
 | -n | values for additional statistics you want to calculate, e.g. 90 for calculation of N90 and L90. |
-| -p | optional argument for calculating the percentage of each base. yes/no (default) |
+| -p | optional argument for calculating the percentage of each base. yes or no = default |
 | -o, --output | output's filename that contains the results, without the CSV extension (.csv). |
 
 
