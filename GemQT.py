@@ -6,7 +6,7 @@ import argparse
 
 usage = "A tool to compute basic and additional metrics for genome assembly, based on contigs' or scaffolds' length."
 tool_name = "GemQT"
-footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group (Genome Nerds) at IMBBC, HCMR"
+footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group at IMBBC, HCMR"
 
 parser = argparse.ArgumentParser(description = usage, prog = tool_name, epilog = footer, formatter_class = argparse.RawDescriptionHelpFormatter,)
 
@@ -58,7 +58,7 @@ def parse_fasta(file_path):
 
 contigs, sequences = parse_fasta(file)
 
-## Calclulation of #contigs, assembly size, longest contig size, average contig length .
+## Calculation of #contigs, assembly size, longest contig size, average contig length .
 contigs_number = len(contigs)
 stats = [contigs_number]
 
