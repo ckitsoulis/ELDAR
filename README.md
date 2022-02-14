@@ -1,6 +1,6 @@
-## Genome Assembly Quality Metrics Tool (GemQT)
+## ELDAR - Genome Assembly Evaluation Tool
 
-GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python script evaluates genome/draft assemblies by computing basic metrics. The current script includes options for computation of additional metrics alongside to common N50, total assembly size, fragments number etc. The results are saved in a CSV file while plots as HTML (report.html).
+ELDAR is a simple evalution tool for genome assemblies which computes basic metrics. The current script includes options for the computation of additional metrics alongside to common ones: i) N50, ii) total assembly size, iii) fragments number etc. The results are saved in a CSV file while interactive plots of cumulative length distribution as HTML (report.html). Recently, it was added the option to retrieve a sorted version (descending order) of FASTA file, based on fragments' length.
 
 
 ### Arguments
@@ -16,10 +16,10 @@ GEMQT stands for Genome assEMbly Quality metrics Tool. The corresponding python 
 
 ### Usage
 
-GemQT [-h] -i path [-n int [int ...]] [-p yes OR no] [-s [SORT]] -o output_filename
+ELDAR [-h] -i path [-n int [int ...]] [-p yes OR no] [-s [SORT]] -o output_filename
 
 ```bash
-python GemQT.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 85 90 95 -s -p yes -o results
+python ELDAR.py -i /users/ckitsoulis/draft_assemblies/genome_assembly.fasta -n 85 90 95 -s -p yes -o results
 ```
 
 ### Dependencies 
