@@ -58,7 +58,7 @@ Who:
 
 Where:
 
-*Genomics & Bioinformatics group (Genome Nerds) at IMBBC, HCMR*
+*Genomics & Bioinformatics group at IMBBC, HCMR*
 
 When:
 
