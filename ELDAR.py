@@ -7,8 +7,8 @@ import argparse
 
 def main():
 
-    usage = "A tool to compute basic and additional metrics for genome assembly, based on contigs' or scaffolds' length."
-    tool_name = "GemQT"
+    usage = "A tool to compute basic and additional metrics for genome assembly, based on fragments' length."
+    tool_name = "ELDAR"
     footer = "Who:\n Christos Kitsoulis (https://github.com/ckitsoulis) \n \nWhere: \n Genomics and Bioinformatics Group at IMBBC, HCMR"
 
     parser = argparse.ArgumentParser(description = usage, prog = tool_name, epilog = footer, formatter_class = argparse.RawDescriptionHelpFormatter,)
