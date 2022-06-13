@@ -133,7 +133,7 @@ def main():
     ## Produce interactive plot for cumulative length 
     fig = px.line(x=[i+1 for i in range(len(cumulative_contigs))], y=cumulative_contigs, 
     labels = {'x': "N-th contig (in descending order)", "y": "cumulative length (bp)"}, 
-    title = "GEMQT: Genome assembly cumulative length plot")
+    title = "ELDAR: Genome assembly - cumulative length plot")
     fig.write_html("report.html")
 
     statistics = pd.DataFrame(list(zip(names,stats)), columns = ["Assembly", " "])
