@@ -60,6 +60,8 @@ Where:
 
 *Genomics & Bioinformatics group at IMBBC, HCMR*
 
+[![DOI](https://zenodo.org/badge/421520006.svg)](https://zenodo.org/badge/latestdoi/421520006)
+
 When:
 
 *October 2021*
